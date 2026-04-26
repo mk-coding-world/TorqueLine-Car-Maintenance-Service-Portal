@@ -1,0 +1,13 @@
+{
+  "name": "fet_final",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start_app": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix frontend\"",
+    "start_backend": "npm run start --prefix server",
+    "start_frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
